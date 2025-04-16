@@ -1,0 +1,34 @@
+
+2025-04-15 13:12:34,641 - INFO - Scraper started
+2025-04-15 13:12:35,743 - ERROR - Failed to fetch jobs
+Traceback (most recent call last):
+  File "c:\Users\uncommonstudents\Desktop\Project 2\web_scraper.py", line 25, in fetch_latest_jobs
+    job_link = card.find("a", href=True)["href"]
+               ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-04-15 13:12:35,744 - WARNING 
+- No jobs were scraped.
+2025-04-15 14:37:51,233 - INFO - Scraper started
+2025-04-15 14:37:52,249 - ERROR - Failed to fetch jobs
+Traceback (most recent call last):
+  File "c:\Users\uncommonstudents\Desktop\Project 2\web_scraper.py", line 25, in fetch_latest_jobs
+    job_link = card.find("a", href=True)["href"]
+               ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-04-15 14:37:52,250 - WARNING - No jobs were scraped.
+2025-04-15 14:40:22,343 - INFO - Scraper started
+2025-04-15 14:40:23,354 - ERROR - Failed to fetch jobs
+Traceback (most recent call last):
+  File "C:\Users\uncommonstudents\Desktop\Project 2\web_scraper.py", line 25, in fetch_latest_jobs
+    job_link = card.find("a", href=True)["href"]
+               ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-04-15 14:40:23,356 - WARNING - No jobs were scraped.
+2025-04-15 14:43:18,468 - INFO - Scraper started
+2025-04-15 14:43:19,529 - WARNING - No jobs were scraped.
+2025-04-15 14:54:46,500 - INFO - Scraper started
+2025-04-15 14:54:47,490 - WARNING - No jobs were scraped.
+2025-04-15 15:01:28,041 - INFO - Scraper started
+2025-04-15 15:01:29,087 - WARNING - No jobs were scraped.
+2025-04-15 15:08:40,227 - INFO - Scraping completed successfully.
+2025-04-15 15:09:00,097 - INFO - Scraping completed successfully.
